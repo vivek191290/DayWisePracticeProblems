@@ -1,0 +1,10 @@
+What Is Concrete Class in Java?
+By Staff WriterLast Updated April 03, 2020
+Facebook
+Twitter
+Concrete class in Java is the default class and is a derived class that provides the basic implementations for all of the methods that are not already implemented in the base class. The opposite of the concrete class is the abstract class, which does not provide implementations for all of its methods.
+
+
+Users can think of the abstract class as the class that is used as the base class and then the concrete class is the class that fills in all of the missing functionality in the abstract class.
+
+To help people better understand the concept of concrete class and abstract class, the “class” concept must be defined. A class is a member of a default package unless its source file contains a package statement. A class is defined as abstract when it has one or more abstract methods or it does not implement all of its superclass’s abstract methods. If a class does not have an explicit constructor then the default constructor must be used. Classes must be declared public or else they will only be accessible to the members of the same package. A class can have the same name as another class, but only if those two classes do not share the same package and only if the two classes are never imported into the same file.

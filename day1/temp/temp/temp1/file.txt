@@ -1,0 +1,34 @@
+What Does Database Row Mean?
+In relational databases, a row is a data record within a table. Each row, which represents a complete record of specific item data, holds different data within the same structure.
+
+A row is occasionally referred to as a tuple.
+
+Advertisement
+
+Techopedia Explains Database Row
+Database tables generally look similar to a spreadsheet. Relational tables have a very similar but more complex structure, as each table column represents a certain table property.
+
+For example, a table called CUSTOMER_MASTER might store basic customer data. It could contain a CUSTOMER_LASTNAME column, which, as the name implies is used to store the last name of customers. This column may have certain parameters, such as each surname must be 30 characters or less and only comprised of alphabetical characters. Thus, each customer surname added to the CUSTOMER_MASTER table must meet these parameters.
+
+However, each complete customer row or record also includes other items (such as first name, physical address, email address, date of birth and gender, etc). Like a spreadsheet, each item is neatly slotted into designated corresponding columns. Thus, each customer row or record is one horizontal line of data that holds a collection of items.
+
+Advertisement
+
+Share this Term
+
+Facebook LinkedIn Twitter
+Related Terms
+Database
+Database Column
+Structured Query Language
+Data Modeling
+Cardinality
+Tuple (Database)
+Database Management System
+Related Reading
+Database Management Systems: Is the Future Really in the Cloud?
+7 Reasons Why You Need a Database Management System
+Machine Learning and the Cloud: A Complementary Partnership
+We Interviewed ChatGPT, AI's Newest Superstar
+7 Ways to Ensure Your WordPress Site's Cybersecurity
+5 Bad Business Intelligence Habits to Avoid at All Costs
