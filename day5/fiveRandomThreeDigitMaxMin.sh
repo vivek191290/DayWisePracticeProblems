@@ -25,8 +25,10 @@ echo "RandomNum4 $randomNum4 is greater than another all numbers"
 elif [ $randomNum5 -gt $randomNum1 ] && [ $randomNum5 -gt $randomNum2 ] && [ $randomNum5 -gt $randomNum3 ] && [ $randomNum5 -gt $randomNum4 ]
 then
 echo "RandomNum5 $randomNum5 is greater than another all numbers"
-
-else [ $randomNum1 -lt $randomNum2 ] && [ $randomNum1 -lt $randomNum3 ] && [ $randomNum1 -lt $randomNum4 ] && [ $randomNum1 -lt $randomNum5 ] && [ $randomNum2 -lt $randomNum1 ] && [ $randomNum2 -lt $randomNum3 ] && [ $randomNum2 -lt $randomNum4 ] && [ $randomNum2 -lt $randomNum5 ] && [ $randomNum3 -lt $randomNum1 ] && [ $randomNum3 -lt $randomNum2 ] && [ $randomNum3 -lt $randomNum4 ] && [ $randomNum3 -lt $randomNum5 ] && [ $randomNum4 -lt $randomNum1 ] && [ $randomNum4 -lt $randomNum2 ] && [ $randomNum4 -lt $randomNum3 ] && [ $randomNum4 -lt $randomNum5 ] && [ $randomNum5 -lt $randomNum1 ] && [ $randomNum5 -lt $randomNum2 ] && [ $randomNum5 -lt $randomNum3 ] && [ $randomNum5 -lt $randomNum4 ]
-
+else
+echo "Number is smaller than another all numbers"
+fi
+if [ $randomNum1 -lt $randomNum2 ] && [ $randomNum1 -lt $randomNum3 ] && [ $randomNum1 -lt $randomNum4 ] && [ $randomNum1 -lt $randomNum5 ] && [ $randomNum2 -lt $randomNum1 ] && [ $randomNum2 -lt $randomNum3 ] && [ $randomNum2 -lt $randomNum4 ] && [ $randomNum2 -lt $randomNum5 ] && [ $randomNum3 -lt $randomNum1 ] && [ $randomNum3 -lt $randomNum2 ] && [ $randomNum3 -lt $randomNum4 ] && [ $randomNum3 -lt $randomNum5 ] && [ $randomNum4 -lt $randomNum1 ] && [ $randomNum4 -lt $randomNum2 ] && [ $randomNum4 -lt $randomNum3 ] && [ $randomNum4 -lt $randomNum5 ] && [ $randomNum5 -lt $randomNum1 ] && [ $randomNum5 -lt $randomNum2 ] && [ $randomNum5 -lt $randomNum3 ] && [ $randomNum5 -lt $randomNum4 ]
+then
 echo "Number is smaller than another all numbers"
 fi
